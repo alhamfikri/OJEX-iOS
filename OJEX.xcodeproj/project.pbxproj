@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		C00161AC16EB21250005CB25 /* ForgetPasswordController.m in Sources */ = {isa = PBXBuildFile; fileRef = C00161A916EB21250005CB25 /* ForgetPasswordController.m */; };
 		C00161AD16EB21250005CB25 /* SettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = C00161AB16EB21250005CB25 /* SettingController.m */; };
+		C00161B116EB32410005CB25 /* ic_facebook.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C00161AF16EB32410005CB25 /* ic_facebook.jpeg */; };
+		C00161B216EB32410005CB25 /* ic_twitter.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C00161B016EB32410005CB25 /* ic_twitter.jpeg */; };
 		F51BE45116BF163000C234B1 /* AddComment.xib in Resources */ = {isa = PBXBuildFile; fileRef = F51BE45016BF163000C234B1 /* AddComment.xib */; };
 		F51BE45916C0D3EC00C234B1 /* Connector.m in Sources */ = {isa = PBXBuildFile; fileRef = F51BE45816C0D3EC00C234B1 /* Connector.m */; };
 		F51BE46A16C206E200C234B1 /* ic_action_done.png in Resources */ = {isa = PBXBuildFile; fileRef = F51BE45A16C206E100C234B1 /* ic_action_done.png */; };
@@ -85,6 +87,8 @@
 		C00161A916EB21250005CB25 /* ForgetPasswordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPasswordController.m; sourceTree = "<group>"; };
 		C00161AA16EB21250005CB25 /* SettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingController.h; sourceTree = "<group>"; };
 		C00161AB16EB21250005CB25 /* SettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingController.m; sourceTree = "<group>"; };
+		C00161AF16EB32410005CB25 /* ic_facebook.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ic_facebook.jpeg; sourceTree = "<group>"; };
+		C00161B016EB32410005CB25 /* ic_twitter.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ic_twitter.jpeg; sourceTree = "<group>"; };
 		F51BE45016BF163000C234B1 /* AddComment.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddComment.xib; sourceTree = "<group>"; };
 		F51BE45716C0D3EC00C234B1 /* Connector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connector.h; sourceTree = "<group>"; };
 		F51BE45816C0D3EC00C234B1 /* Connector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connector.m; sourceTree = "<group>"; };
@@ -253,6 +257,8 @@
 		F525608016A3BEC0008CE6F3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C00161AF16EB32410005CB25 /* ic_facebook.jpeg */,
+				C00161B016EB32410005CB25 /* ic_twitter.jpeg */,
 				F51BE45A16C206E100C234B1 /* ic_action_done.png */,
 				F51BE45B16C206E200C234B1 /* ic_action_overflow.png */,
 				F51BE45C16C206E200C234B1 /* ic_content_email.png */,
@@ -464,6 +470,8 @@
 				F51BE47716C206E200C234B1 /* ic_rating_not_important.png in Resources */,
 				F51BE47816C206E200C234B1 /* ic_social_person.png in Resources */,
 				F51BE47916C206E200C234B1 /* ic_social_send_now.png in Resources */,
+				C00161B116EB32410005CB25 /* ic_facebook.jpeg in Resources */,
+				C00161B216EB32410005CB25 /* ic_twitter.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,7 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface SettingController : UIViewController
-- (IBAction)shareToFacebook:(id)sender;
-- (IBAction)shareToTwitter:(id)sender forEvent:(UIEvent *)event;
 
 @end
