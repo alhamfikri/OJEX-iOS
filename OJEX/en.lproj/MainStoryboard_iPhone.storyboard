@@ -1505,7 +1505,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="clJ-nW-L9S" kind="push" id="QRP-wX-wTT"/>
+                        <segue destination="clJ-nW-L9S" kind="relationship" relationship="rootViewController" id="Z9v-ZU-h41"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hqL-pI-p0h" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1977,12 +1977,118 @@
         <image name="ic_social_send_now.png" width="48" height="48"/>
         <image name="topan.jpg" width="323" height="220"/>
     </resources>
+    <classes>
+        <class className="EditProfileController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/EditProfileController.h"/>
+            <relationships>
+                <relationship kind="action" name="submitButtonListener:"/>
+                <relationship kind="outlet" name="alamat" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="email" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="jenisKelamin" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="license" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="motor" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="namaLengkap" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="password" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="passwordKonfirmed" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="passwordLama" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="telepon" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="username" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="ForgetPasswordController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ForgetPasswordController.h"/>
+            <relationships>
+                <relationship kind="action" name="resetPassword:"/>
+                <relationship kind="outlet" name="emailField" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="HistoryAndCommentController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/HistoryAndCommentController.h"/>
+        </class>
+        <class className="HomeController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/HomeController.h"/>
+            <relationships>
+                <relationship kind="action" name="editEndTime:"/>
+                <relationship kind="action" name="editStartTime:"/>
+                <relationship kind="action" name="fromMapButtonListener:"/>
+                <relationship kind="action" name="homeSegmentControlListener:"/>
+                <relationship kind="outlet" name="fromDateField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="homeSegmentControl" candidateClass="UISegmentedControl"/>
+                <relationship kind="outlet" name="searchBar" candidateClass="UISearchBar"/>
+                <relationship kind="outlet" name="searchDisplayController" candidateClass="UISearchDisplayController"/>
+                <relationship kind="outlet" name="searchNavigation" candidateClass="UIView"/>
+                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
+                <relationship kind="outlet" name="toDateField" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="LoginController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/LoginController.h"/>
+            <relationships>
+                <relationship kind="action" name="LoginButtonListener:"/>
+                <relationship kind="action" name="usernameEditEnd:"/>
+                <relationship kind="action" name="usernameEditStart:"/>
+                <relationship kind="outlet" name="myTableView" candidateClass="UITableView"/>
+                <relationship kind="outlet" name="passwordTextField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="usernameTextField" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="PostARideController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PostARideController.h"/>
+            <relationships>
+                <relationship kind="action" name="backButtonListener:"/>
+                <relationship kind="action" name="initializeTrip:"/>
+                <relationship kind="action" name="kamuInginListener:"/>
+                <relationship kind="action" name="priceOnEditing:"/>
+                <relationship kind="action" name="timeStartEdit:"/>
+                <relationship kind="outlet" name="formLocationField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="kamuInginTextField" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="notesTextField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="pointLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="priceTextField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="timeTextField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="toLocationField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="viaLocationField" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="ProfileWrapperController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ProfileWrapperController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
+                <relationship kind="outlet" name="searchNavigation" candidateClass="UIView"/>
+            </relationships>
+        </class>
+        <class className="RegisterController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/RegisterController.h"/>
+            <relationships>
+                <relationship kind="action" name="submitButtonListener:"/>
+                <relationship kind="outlet" name="alamat" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="email" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="jenisKelamin" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="motor" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="namaLengkap" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="password" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="passwordKonfirmed" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="telepon" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="username" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="SearchListController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SearchListController.h"/>
+        </class>
+        <class className="SettingController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SettingController.h"/>
+            <relationships>
+                <relationship kind="action" name="shareToFacebook:"/>
+                <relationship kind="action" name="shareToTwitter:forEvent:"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="CoF-r1-yRz"/>
+        <segue reference="Il8-DX-xaF"/>
     </inferredMetricsTieBreakers>
 </document>
