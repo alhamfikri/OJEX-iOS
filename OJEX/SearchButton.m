@@ -42,7 +42,7 @@
     
     if ([[[GlobalVar getInstance] user] isEqual:[[GlobalVar getInstance] userProfile]] &&[wrapper isKindOfClass:[ProfileWrapperController class]])
         other1 = @"Edit Profile";
-    NSString *other2 = @"Settings";
+    NSString *other2 = @"Setting";
     NSString *other3 = @"Logout";
     NSString *cancelTitle = @"Cancel";
     UIActionSheet *actionSheet = [[UIActionSheet alloc]
@@ -89,8 +89,14 @@
     if ([buttonTitle isEqualToString:@"Edit Profile"]) {
         [wrapper performSegueWithIdentifier:@"ProfileToEdit" sender:self];
     }
-    if ([buttonTitle isEqualToString:@"Other Button 3"]) {
-        NSLog(@"Other 3 pressed");
+    if ([buttonTitle isEqualToString:@"Setting"]) {
+        UINavigationController *myNewVC =  [storyboard instantiateViewControllerWithIdentifier:@"SettingNavigation"];
+        [wrapper presentViewController:myNewVC animated:YES completion:NULL];
+    }
+    if ([buttonTitle isEqualToString:@"Logout"]) {
+        //opening Login Screen
+        UINavigationController *myNewVC =  [storyboard instantiateViewControllerWithIdentifier:@"LoginScreen"];
+        [wrapper presentViewController:myNewVC animated:YES completion:NULL];
     }
     if ([buttonTitle isEqualToString:@"Cancel Button"]) {
         NSLog(@"Cancel pressed --> Cancel ActionSheet");

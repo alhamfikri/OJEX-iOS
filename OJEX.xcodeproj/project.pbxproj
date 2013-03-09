@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C00161AC16EB21250005CB25 /* ForgetPasswordController.m in Sources */ = {isa = PBXBuildFile; fileRef = C00161A916EB21250005CB25 /* ForgetPasswordController.m */; };
+		C00161AD16EB21250005CB25 /* SettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = C00161AB16EB21250005CB25 /* SettingController.m */; };
 		F51BE45116BF163000C234B1 /* AddComment.xib in Resources */ = {isa = PBXBuildFile; fileRef = F51BE45016BF163000C234B1 /* AddComment.xib */; };
 		F51BE45916C0D3EC00C234B1 /* Connector.m in Sources */ = {isa = PBXBuildFile; fileRef = F51BE45816C0D3EC00C234B1 /* Connector.m */; };
 		F51BE46A16C206E200C234B1 /* ic_action_done.png in Resources */ = {isa = PBXBuildFile; fileRef = F51BE45A16C206E100C234B1 /* ic_action_done.png */; };
@@ -79,6 +81,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C00161A816EB21250005CB25 /* ForgetPasswordController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPasswordController.h; sourceTree = "<group>"; };
+		C00161A916EB21250005CB25 /* ForgetPasswordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPasswordController.m; sourceTree = "<group>"; };
+		C00161AA16EB21250005CB25 /* SettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingController.h; sourceTree = "<group>"; };
+		C00161AB16EB21250005CB25 /* SettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingController.m; sourceTree = "<group>"; };
 		F51BE45016BF163000C234B1 /* AddComment.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddComment.xib; sourceTree = "<group>"; };
 		F51BE45716C0D3EC00C234B1 /* Connector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connector.h; sourceTree = "<group>"; };
 		F51BE45816C0D3EC00C234B1 /* Connector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connector.m; sourceTree = "<group>"; };
@@ -283,6 +289,10 @@
 		F52560AB16A3D4E7008CE6F3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C00161A816EB21250005CB25 /* ForgetPasswordController.h */,
+				C00161A916EB21250005CB25 /* ForgetPasswordController.m */,
+				C00161AA16EB21250005CB25 /* SettingController.h */,
+				C00161AB16EB21250005CB25 /* SettingController.m */,
 				F5561D4E16AE4A29004CF49D /* HistoryAndCommentController.h */,
 				F5561D4F16AE4A29004CF49D /* HistoryAndCommentController.m */,
 				F52560BB16A40E7C008CE6F3 /* HomeController.h */,
@@ -493,6 +503,8 @@
 				F51BE48016C23B8500C234B1 /* RegisterController.m in Sources */,
 				F51BE48E16C49C6100C234B1 /* PostARideController.m in Sources */,
 				F51F7ED916E7679600A09137 /* EditProfileController.m in Sources */,
+				C00161AC16EB21250005CB25 /* ForgetPasswordController.m in Sources */,
+				C00161AD16EB21250005CB25 /* SettingController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
