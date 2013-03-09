@@ -28,6 +28,10 @@
     self.source.longitude = [data objectForKey:@"source_longitude"];
     self.destination.latitude = [data objectForKey:@"destination_latitude"];
     self.destination.longitude = [data objectForKey:@"destination_longitude"];
+    
+    self.user.source = [data objectForKey:@"source_label"];
+    self.user.destination = [data objectForKey:@"destination_label"];
+    NSLog(@"WAWWAWAW %@\n",self.user.source);
 
     NSDateFormatter* formatter = [[NSDateFormatter alloc] init];
     [formatter setDateFormat:@"YYYY-MM-DD HH:mm:ss"];

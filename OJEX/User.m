@@ -17,6 +17,9 @@
     self.name = [data objectForKey:@"name"];
     self.email = [data objectForKey:@"email"];
     self.userId = [data objectForKey:@"userId"];
+    self.source = [data objectForKey:@"source_label"];
+    self.destination = [data objectForKey:@"destination_label"];
+    
     self.username = @"";
     //self.username = [data objectForKey:@"username"];
     self.password = [data objectForKey:@"password"];
